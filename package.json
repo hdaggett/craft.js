@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "author": "Prev Wong <prevwong@gmail.com>",
+  "name": "root",
   "scripts": {
     "dev": "./scripts/dev.sh",
     "dev:docs": "lerna run start --scope docs",
