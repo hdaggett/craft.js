@@ -177,6 +177,7 @@ export const Actions = (
      * @param index
      */
     addNodeTree(tree: NodeTree, parentId?: NodeId, index?: number) {
+      console.log("Heather's add node tree");
       const node = tree.nodes[tree.rootNodeId];
 
       if (!parentId) {
